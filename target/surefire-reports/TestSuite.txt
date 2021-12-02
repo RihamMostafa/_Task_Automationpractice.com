@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 8, Errors: 0, Skipped: 2, Time elapsed: 88.545 s <<< FAILURE! - in TestSuite
+EmailStepScreen(Test.SignInTest)  Time elapsed: 24.234 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to convert data to an object
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+*** Element info: {Using=xpath, value=//div[@class="header_user_info"]/a[@title="Log in to your customer account"]}
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+
+EmailStepScreen(Test.SignInTest)  Time elapsed: 1.114 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+
+EmailStepScreen(Test.SignInTest)  Time elapsed: 0.019 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+
+EmailStepScreen(Test.SignInTest)  Time elapsed: 0.013 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+
+EmailStepScreen(Test.SignInTest)  Time elapsed: 0.018 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+
+EmailStepScreen(Test.SignInTest)  Time elapsed: 0.013 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+
+SysOutA(Test.SignInTest)  Time elapsed: 0.029 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+
+BC(Test.WomenTabTest)  Time elapsed: 10.295 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'E0727866', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: Driver
+remote stacktrace: 
+

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_Suite" class="navigator-link ">
+                    <span>C:\Users\KamelR2\Documents\GitHub\_Task_Automationpractice.com\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 6 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 ...)">EmailStepScreen(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(r@test.com, valid, validmail, )">EmailStepScreen(r@test.com, valid, validmail, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(m, invalid, Invalid mail format, Invalid email address.)">EmailStepScreen(m, invalid, Invalid mail format, Invalid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(, invalid, Empty Email , Invalid email address.)">EmailStepScreen(, invalid, Empty Email , Invalid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , )">EmailStepScreen(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 258...)">EmailStepScreen(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 258...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods skipped suite-Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods skipped suite-Regression_Suite"> (show)</a> <!-- show-methods skipped suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.WomenTabTest" class="method navigator-link" hash-for-method="OrderBlouses">OrderBlouses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.SignInTest" class="method navigator-link" hash-for-method="EmailStepScreen(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Pl...)">EmailStepScreen(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Pl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 ...)">
+                  </a> <!-- EmailStepScreen(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 ...) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 st Texas)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:335)
+	at Driver.Driver.getCurrentUrl(Driver.java:43)
+	at Pages.HomePage.&lt;init&gt;(HomePage.java:13)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:10)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(r@test.com, valid, validmail, )">
+                  </a> <!-- EmailStepScreen(r@test.com, valid, validmail, ) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(r@test.com, valid, validmail, )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:335)
+	at Driver.Driver.getCurrentUrl(Driver.java:43)
+	at Pages.HomePage.&lt;init&gt;(HomePage.java:13)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:10)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(m, invalid, Invalid mail format, Invalid email address.)">
+                  </a> <!-- EmailStepScreen(m, invalid, Invalid mail format, Invalid email address.) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(m, invalid, Invalid mail format, Invalid email address.)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+*** Element info: {Using=xpath, value=//div[@class=&quot;header_user_info&quot;]/a[@title=&quot;Log in to your customer account&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Driver.Driver.findByXPath(Driver.java:63)
+	at Pages.HomePage.SignIn(HomePage.java:21)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:11)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(, invalid, Empty Email , Invalid email address.)">
+                  </a> <!-- EmailStepScreen(, invalid, Empty Email , Invalid email address.) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(, invalid, Empty Email , Invalid email address.)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:335)
+	at Driver.Driver.getCurrentUrl(Driver.java:43)
+	at Pages.HomePage.&lt;init&gt;(HomePage.java:13)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:10)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , )">
+                  </a> <!-- EmailStepScreen(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , ) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:335)
+	at Driver.Driver.getCurrentUrl(Driver.java:43)
+	at Pages.HomePage.&lt;init&gt;(HomePage.java:13)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:10)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 258...)">
+                  </a> <!-- EmailStepScreen(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 258...) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 2587946123, +456789123741, 45 st texas)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21672, moz:profile: C:\Users\KamelR2\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: abcd9a3d-dd7f-4d13-b57e-79d1582658ef
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:335)
+	at Driver.Driver.getCurrentUrl(Driver.java:43)
+	at Pages.HomePage.&lt;init&gt;(HomePage.java:13)
+	at Pages.SignIn.&lt;init&gt;(SignIn.java:10)
+	at Test.SignInTest.EmailStepScreen(SignInTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-failed -->
+          <div class="suite-Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Test.WomenTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderBlouses">
+                  </a> <!-- OrderBlouses -->
+                  <span class="method-name">OrderBlouses</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;E0727866&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at Driver.Driver.getDriver(Driver.java:117)
+	at Test.BaseTest.BC(BaseTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-skipped -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailStepScreen(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Pl...)">
+                  </a> <!-- EmailStepScreen(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Pl...) -->
+                  <span class="method-name">EmailStepScreen</span>
+                  <span class="parameters">(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Please enter a valid password or request a new one. )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\KamelR2\Documents\GitHub\_Task_Automationpractice.com\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.SignInTest&quot;/&gt;
+      &lt;class name=&quot;Test.WomenTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EmailStepScreen')
+data.setCell(0, 2, 'Test.SignInTest')
+data.setCell(0, 3, 24217);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EmailStepScreen')
+data.setCell(1, 2, 'Test.SignInTest')
+data.setCell(1, 3, 23092);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EmailStepScreen')
+data.setCell(2, 2, 'Test.SignInTest')
+data.setCell(2, 3, 1114);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EmailStepScreen')
+data.setCell(3, 2, 'Test.SignInTest')
+data.setCell(3, 3, 18);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EmailStepScreen')
+data.setCell(4, 2, 'Test.SignInTest')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'EmailStepScreen')
+data.setCell(5, 2, 'Test.SignInTest')
+data.setCell(5, 3, 13);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EmailStepScreen')
+data.setCell(6, 2, 'Test.SignInTest')
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'OrderBlouses')
+data.setCell(7, 2, 'Test.WomenTabTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.WomenTabTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">BC</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EmailStepScreen(m@test.com, invalid, Exist mail, An account using this email address has already been registered. Pl...)</span>
+                <span class="method-start">28626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(m, invalid, Invalid mail format, Invalid email address.)</span>
+                <span class="method-start">51719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(, invalid, Empty Email , Invalid email address.)</span>
+                <span class="method-start">75957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(r@test.com, valid, validmail, )</span>
+                <span class="method-start">77072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(Valid, , Ri, Ham, _r@test.com, AT@, Ri, Ham, TestCM, 12 st, Austin, 73344, any additional info , 258...)</span>
+                <span class="method-start">77140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(Invalid, mandatory, , , _r@test.com, , , , , , , , , , , )</span>
+                <span class="method-start">77153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmailStepScreen(Valid, mandatory, Ri, Ham, _r@test.com, AT@, Ri, Ham, , 12 st, Austin, 73344, , , +456789123741, 45 ...)</span>
+                <span class="method-start">77171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SysOutA</span>
+                <span class="method-start">77185 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.WomenTabTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BC</span>
+                <span class="method-start">77203 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">SysOutA</span>
+                <span class="method-start">87468 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">OrderBlouses</span>
+                <span class="method-start">87468 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
